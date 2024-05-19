@@ -21,6 +21,8 @@ default.payment.next.month: Default payment (1 = yes, 0 = no)
 Missing Values: Checked and confirmed no missing values.
 Data Types: Converted categorical variables (SEX, EDUCATION, MARRIAGE) to appropriate types.
 
+![alt text](image.png)
+
 Feature Scaling: Standardized numerical features using StandardScaler.
 
 **2. Exploratory Data Analysis (EDA)**
@@ -55,6 +57,11 @@ F1 Score: Harmonic mean of precision and recall.
 4. Confusion Matrices
 Confusion matrices were visualized to assess the performance of the classification models.
 
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
 
 **Results**
 
@@ -64,6 +71,12 @@ Decision Tree Classifier: Showed overfitting with an accuracy of 72.3%, but prec
            
 
 Random Forest Classifier: Achieved the highest accuracy of 81.5%, with balanced precision, recall, and F1 score.
+
+![alt text](image-4.png)
+
+![alt text](image-5.png)
+
+![alt text](image-6.png)
 
 **Conclusion**
 
@@ -82,12 +95,3 @@ To run the analysis and models, execute the provided Python scripts in a Jupyter
 **Acknowledgments**
 
 The dataset used in this project was sourced from the UCI Machine Learning Repository.
-
-**Screenshots of plotes**
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
-![alt text](image-4.png)
-![alt text](image-5.png)
-![alt text](image-6.png)
